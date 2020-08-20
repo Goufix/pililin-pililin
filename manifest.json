@@ -1,0 +1,13 @@
+{
+  "name": "pululin pululin",
+  "version": "1.0",
+  "description": "Faz pululin pululin",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://ambitus.atlassian.net/*"],
+      "js": ["main.js"]
+    }
+    ],
+    "web_accessible_resources": ["index.js", "1up.mp3"]
+}
